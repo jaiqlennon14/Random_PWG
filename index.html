@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+        <div class="card text-center">
+                <div class="card-header">
+                  Hello, I'm a password-generator and was design by 
+                  <br>Jai Lennon-Walker.
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Take a look ↓</h5>
+                  <br>
+                  <div class="result-container">
+                        <span id="result" style="
+                        padding: 20px;
+                        width: 300px;
+                        max-width: 100%;}">
+                    </span>
+                  </div>
+                  <br>
+                  <p class="card-text">Pick your Password Parameters:</p>
+
+                  <label>Password length (8 - 128 characters)</label>
+            <input type="number" id="length" min='8' max='128' value='8' /> <br>
+            
+                  <input type="checkbox" id="symbols" value="symbols"> Would you like to add symbols?<br>
+
+                  <input type="checkbox" id="lcase" value="lcase"> Would you like to add lower-case characters?<br>
+
+                  <input type="checkbox" id="ucase" value="ucase"> Would you like to add upper-case characters?<br>
+
+                  <input type="checkbox" id="numbers" value="numbers"> Would you like to add numbers?<br>
+
+                  <a class="btn btn-primary" id="generate">Generate</a>
+                  <a class="btn btn-primary" id ="copy">Copy to Clipboard</a>
+                </div>
+                <div class="card-footer text-muted">
+                  Generated History
+                </div>
+                <div class="result-container">
+                        <span id="history" style="
+                        padding: 20px;
+                        width: 300px;
+                        max-width: 100%;}">
+                    </span>
+                  </div>
+                  <br>
+              </div>
+
+
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>

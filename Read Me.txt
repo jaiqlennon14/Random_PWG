@@ -1,0 +1,20 @@
+Homework Assignment 3
+
+While not exactly designed as the template given, I've made countless efforts to make use of Javascript's prompt feature.. 
+and with little progress. 
+Instead, I decided to scrap that code and make use of two tutorials that advised the use of checkboxes.
+
+I found the approach easier, and as able to make more sense of the logic whilst coding it.
+There are some code in use that was found with personal reasearch, through the tutorials used, and even in the last day of instruction before the assignemnt's due date!
+
+The UI was crafted with the use of Bootstrap. I made the decision because of it's built-in resizing feature, as well as the ease of implementation. 
+It shoud also be noted that because Javascript is the main focus here, I wasn't pressed on the design of the UI, or even building it from scratch.
+
+Link to the tutorials used:
+https://www.youtube.com/watch?v=duNmhKgtcsI&t=1275s
+https://www.youtube.com/watch?v=9sT03jEwcaw&t=53s
+
+
+P.S.
+
+I did try to add a feature to save the generated password, but to no avail... the project started to strench on for too long. I'd love to go back and finish it, though.
